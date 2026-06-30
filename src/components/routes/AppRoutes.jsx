@@ -13,7 +13,7 @@ export default function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={< DashboardLayout/>} />
 
         <Route path="/dashboard" element={<DashboardLayout />}>
           <Route index element={<Dashboard />} />
