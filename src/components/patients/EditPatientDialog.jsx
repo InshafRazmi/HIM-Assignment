@@ -22,7 +22,7 @@ export default function EditPatientDialog({ patient }) {
         </button>
       </DialogTrigger>
 
-      <DialogContent className="sm:max-w-3xl">
+      <DialogContent className="w-[95vw] sm:max-w-4xl max-h-[90vh] overflow-y-auto p-7 rounded-2xl">
         <DialogHeader>
           <DialogTitle>Edit Patient</DialogTitle>
         </DialogHeader>
