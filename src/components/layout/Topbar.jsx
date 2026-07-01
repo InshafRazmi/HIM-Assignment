@@ -37,7 +37,7 @@ export default function Topbar() {
       {/* Right */}
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 lg:gap-5 w-full lg:w-auto">
         {/* Search */}
-        <div className="flex items-center gap-3 bg-[#F8F5FF] px-5 py-3 rounded-2xl w-full lg:w-80">
+        {/*<div className="flex items-center gap-3 bg-[#F8F5FF] px-5 py-3 rounded-2xl w-full lg:w-80">
           <Search
             size={18}
             className="text-purple-500"
@@ -48,7 +48,7 @@ export default function Topbar() {
             placeholder="Search patients..."
             className="bg-transparent outline-none w-full"
           />
-        </div>
+        </div>*/}
 
         {/* Date */}
         <div
