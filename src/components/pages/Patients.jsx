@@ -22,7 +22,7 @@ export default function Patients() {
             placeholder="Search patients..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-11 rounded-2xl bg-white"
+            className="pl-11 rounded-2xl bg-white h-[40px]"
           />
         </div>
 
